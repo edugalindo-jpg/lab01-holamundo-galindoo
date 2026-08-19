@@ -59,6 +59,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         )
         Button(onClick = { println("Boton presionado")}) { Text(text = "presioname")}
     }
+        Text(
+            text = "año: 2026"
+        )
 }
 @Preview(showBackground = true)
 @Composable
